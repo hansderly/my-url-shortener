@@ -1,0 +1,28 @@
+{
+  "name": "my-url-shorten-service",
+  "version": "1.0.0",
+  "description": "An url shorten service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "shorten",
+    "service",
+    "nodejs",
+    "exepress",
+    "mysql"
+  ],
+  "author": "Hans-Derly Rameau",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  }
+}
